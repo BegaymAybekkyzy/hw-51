@@ -1,0 +1,7 @@
+.number{
+  border-radius: 100%;
+  border: 1px solid #1a1a1a;
+  padding: 5% 6%;
+  margin-left: 5px;
+  display: inline-block;
+}
