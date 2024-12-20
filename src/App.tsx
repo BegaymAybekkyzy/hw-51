@@ -1,6 +1,6 @@
-import './App.css';
-import { useState } from 'react';
-import Number from './components/Number/Number';
+import "./App.css";
+import { useState } from "react";
+import Number from "./components/Number/Number";
 
 const App = () => {
   const [numbers, setNumbers] = useState<number[]>([5, 11, 16, 23, 32]);
@@ -23,13 +23,14 @@ const App = () => {
   return (
     <>
       <div className="btnBlock">
-        <button onClick={() => randomNumberGenerator(5, 36)}>New numbers</button>
+        <button onClick={() => randomNumberGenerator(5, 36)}>
+          New numbers
+        </button>
       </div>
 
       {numbers.map((number) => (
-        <Number value={number}/>
+        <Number value={number} />
       ))}
-
     </>
   );
 };

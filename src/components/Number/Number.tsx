@@ -6,8 +6,6 @@ interface Props {
 }
 
 const Number: React.FC<Props> = ({ value }) => {
-  return (
-    <span className="number">{value}</span>
-  );
+  return <span className="number">{value}</span>;
 };
 export default Number;
